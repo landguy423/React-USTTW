@@ -1,0 +1,6 @@
+
+COPY etc/nginx/ssl /etc/usttw/ssl
+
+VOLUME /etc/usttw/
+
+CMD ["true"]
